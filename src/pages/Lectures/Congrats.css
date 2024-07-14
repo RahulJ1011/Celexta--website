@@ -1,0 +1,91 @@
+.congrats-container
+{
+    background-color: #130022;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.congrats-heading
+{
+    margin-left: 25px;
+    padding: 20px 0px;
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.congrats-contents
+{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid rgba(139, 56, 205, 1);
+}
+.congrats-contents h2
+{
+    color: rgba(139, 56, 205, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.congrats-contents p
+{
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.final-work
+{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw; 
+    margin-top: 20px;
+}
+.final-work h2
+{
+    margin-top: 30px;
+    color: rgba(139, 56, 205, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.final-work h4
+{
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.final-work p
+{
+    font-weight: 400;
+    line-height: 39px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-size: 26px;
+}
+.final-assignment-link
+{
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 6vw;
+   background-color:rgba(217, 217, 217, 0.1);
+   padding: 10px 0px;
+   padding-left: 45px;
+   margin-top: 30px;
+}
