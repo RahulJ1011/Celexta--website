@@ -14,9 +14,10 @@ const Lectures = () => {
             <img src={Playbtnicon} alt="video-icon" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer" />
           </div>
         </div>
-        <div className="mx-20  ">
+        <div className="mx-20">
           <h2 className="text-[#8C52FF] font-bold text-2xl mb-5">Module n &gt; Topic &gt;</h2>
           <h5 className="font-medium text-xl bg-[rgba(217,217,217,0.1)] px-6 py-2.5 h-[250px]">Video Description</h5>
+          <button className="cursor-pointer bg-[rgba(139,56,205,1)] px-4 py-2 border border-transparent rounded-xl text-[20px] mt-12">Take Test</button>
         </div>
         <div className="mt-12 mx-20 w-[90]">
           <h2 className="text-[#8C52FF] font-bold text-2xl mb-5">Assignment - Module n</h2>
