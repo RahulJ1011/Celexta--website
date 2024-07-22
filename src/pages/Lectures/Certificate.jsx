@@ -1,37 +1,31 @@
-import React from 'react'
-import "./certificate.css"
+import React from 'react';
+
 const Certificate = () => {
   return (
-    <div className='certificate-container'>
-        <div className='certificate-heading'>
-        <h3>COURSES &gt; SYLLABUS &gt; LECTURE &gt; FINAL PROJ &gt; CERTFICATE</h3>
+    <div className='bg-background text-white pt-6 pb-16  overflow-auto'>
+      <div className='text-lg font-medium mb-4 ml-7 max-sm:text-xl'>
+          <h3>COURSES &gt; SYLLABUS &gt; LECTURE &gt; FINAL PROJ &gt; CERTFICATE</h3>
         </div>
-        <div className='certificate-contents'>
-            <div className='certificate-greetings'>
-            <h3>
-            Congratulations on 
-            </h3>
-            <h3>
-            completeting the course!
-            </h3>
-            </div>
-           <p style={{
-            fontSize:"24px",
-            marginTop:"30px",
-            textAlign: "center",
-            marginBottom:"30px"
-           }}>
+      <div className='mx-auto max-w-4xl'>
+        
+        <div className='flex flex-col items-center justify-center'>
+          <div className='text-primary font-bold text-4xl mb-8 text-center md:text-4xl max-sm:text-md'>
+            <h3>Congratulations on</h3>
+            <h3>completing the course!</h3>
+          </div>
+          <p className='text-3xl mb-8 text-center max-sm:text-xl'>
             Here is Your Certificate
-           </p>
-           <div className='user-certficate'>
+          </p>
+          <div className='bg-[rgb(217,217,217)]/30 w-3/4 h-96 mb-8 mx-auto'>
 
-           </div>
-           <button className='btn'>
-            Download Certficate
-           </button>
+          </div>
+          <button className='bg-primary hover:bg-purple-700 text-white font-bold py-3 px-6 rounded'>
+            Download Certificate
+          </button>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Certificate
+export default Certificate;
