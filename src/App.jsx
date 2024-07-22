@@ -9,7 +9,7 @@ import CoursesPage from "./pages/Courses";
 import Lectures from "./pages/Lectures/Lectures";
 import Congrats from "./pages/Lectures/Congrats";
 import Certificate from "./pages/Lectures/Certificate";
-import About from "./pages/About/About";
+// import About from "./pages/About/About";
 
 
 
@@ -24,7 +24,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/service" element={<Services />} />
             <Route path="/courses" element={<CoursesPage/>} />
-            <Route path="/about-us" element={<About />} />
+            {/* <Route path="/about-us" element={<About />} /> */}
             <Route path="/contact-us" element={<Home />} />
             <Route path="/lecture" element={<Lectures />} />
             <Route path="/congrats" element={<Congrats />} />

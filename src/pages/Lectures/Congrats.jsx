@@ -7,7 +7,7 @@ const Congrats = () => {
         <h3>COURSES &gt; SYLLABUS &gt; LECTURE &gt; FINAL PROJ</h3>
       </div>
       <div className="flex flex-col ml-12 py-5 mr-10 gap-5 border-b-2 border-purple">
-        <h2 className="text-4xl">Congratulations!</h2>
+        <h2 className="text-white text-4xl">Congratulations!</h2>
         <p className="text-white">
           You Have completed all the modules of the course.
         </p>
@@ -16,7 +16,7 @@ const Congrats = () => {
         </p>
       </div>
       <div className="flex flex-col ml-12 mr-10">
-        <h2 className="text-4xl mt-5">FINAL PRACTICAL WORK </h2>
+        <h2 className="text-4xl mt-5 text-white">FINAL PRACTICAL WORK </h2>
         <h4 className="text-white font-bold text-lg">Name</h4>
         <h6 className=" text-white font-weight-400 text-xl mb-5 leading-normal">
           VFundamental Principles: Understand the foundational principles of
